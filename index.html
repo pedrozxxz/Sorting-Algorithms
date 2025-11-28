@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmos de Ordenação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Algoritmos de Ordenação</h1>
+        
+        <div class="input-section">
+            <label for="numbers">Digite os números (separados por vírgula):</label>
+            <input type="text" id="numbers" placeholder="Ex: 5,3,8,1,9">
+        </div>
+        
+        <div class="buttons">
+            <button id="bubbleSort">Executar Bubble Sort</button>
+            <button id="selectionSort">Executar Selection Sort</button>
+            <button id="insertionSort">Executar Insertion Sort</button>
+            <button id="mergeSort">Executar Merge Sort</button>
+        </div>
+        
+        <div class="results">
+            <div class="result-box">
+                <h3>Lista Original</h3>
+                <div id="originalList" class="list-display">-</div>
+            </div>
+            
+            <div class="result-box">
+                <h3>Resultado Ordenado</h3>
+                <div id="sortedList" class="list-display">-</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
